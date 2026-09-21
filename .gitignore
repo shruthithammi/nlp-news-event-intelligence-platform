@@ -1,0 +1,84 @@
+# --------------------------------------------------
+# Python
+# --------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# --------------------------------------------------
+# VS Code / IDE
+# --------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------------------------------
+# Jupyter
+# --------------------------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------------------------
+# Hugging Face / Model Cache
+# --------------------------------------------------
+.cache/
+huggingface/
+models/
+checkpoints/
+
+# --------------------------------------------------
+# Generated Output Files
+# --------------------------------------------------
+
+# Embeddings
+outputs/embeddings/*.npy
+outputs/embeddings/*.pkl
+
+# Clustering outputs (keep folder, ignore generated files)
+outputs/clusters/*.csv
+!outputs/clusters/.gitkeep
+
+# Timeline outputs
+outputs/timelines/*.csv
+!outputs/timelines/.gitkeep
+
+# AI summaries
+outputs/summaries/*.csv
+!outputs/summaries/.gitkeep
+
+# Visualizations
+outputs/plots/
+outputs/figures/
+
+# Logs
+logs/
+*.log
+
+# --------------------------------------------------
+# Streamlit
+# --------------------------------------------------
+.streamlit/secrets.toml
+
+# --------------------------------------------------
+# Operating System Files
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------------
+# Temporary Files
+# --------------------------------------------------
+*.tmp
+*.bak
+*.swp
