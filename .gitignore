@@ -82,3 +82,11 @@ desktop.ini
 *.tmp
 *.bak
 *.swp
+
+# Ignore datasets
+data/raw/*.json
+data/processed/*.csv
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
